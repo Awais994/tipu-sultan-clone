@@ -1,0 +1,103 @@
+.linker {
+  position: relative;
+  top: 10px;
+  font-weight: 500 !important;
+  font-size: 15.2px !important;
+  text-transform: uppercase;
+  color: black !important;
+  padding: 10px !important;
+}
+.linker:hover {
+  color: #b27d2d !important;
+}
+.linker-child {
+  font-weight: 500 !important;
+  font-size: 15.2px !important;
+  text-transform: uppercase;
+  color: black !important;
+}
+#nav1 {
+  background-color: #ffffff !important;
+  align-items: center;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+#basic-nav-dropdown {
+  color: black !important;
+}
+#basic-nav-dropdown:hover {
+  color: #b27d2d !important;
+}
+.me-auto {
+  justify-content: space-between !important;
+  align-items: center !important;
+  vertical-align: middle !important;
+  margin: auto !important;
+}
+
+.dropdown-item:hover {
+  background-color: transparent !important;
+  color: #b27d2d !important;
+}
+.nav-link-router {
+  text-decoration: none;
+  color: inherit;
+}
+.nav-link-router:hover {
+  color: #b27d2d;
+}
+
+#nav2 {
+  display: none;
+}
+.btn-close {
+  filter: invert(1);
+}
+
+
+@media screen and (max-width: 999px) {
+  #nav1 {
+    display: none !important;
+  }
+  .dropdown-menu.show {
+    display: block !important;
+  }
+  .me-auto {
+    align-items: initial !important;
+    vertical-align: initial !important;
+  }
+  .dropdown-item {
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+  }
+  .dropdown-item:hover {
+    background-color: initial !important;
+    color: #b27d2d !important;
+  }
+  .dropdown-item:hover {
+    background-color: transparent !important;
+    color: #b27d2d !important;
+  }
+  .navbar-brand {
+    margin: auto !important;
+  }
+  #nav2 {
+    display: block;
+  }
+  .linker2 {
+    font-weight: 500 !important;
+    font-size: 15.2px !important;
+    text-transform: uppercase;
+    color: black !important;
+    padding: 10px !important;
+  }
+  .linker2:hover {
+    color: #b27d2d !important;
+  }
+}
+.offcanvas-body {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 1rem;
+}

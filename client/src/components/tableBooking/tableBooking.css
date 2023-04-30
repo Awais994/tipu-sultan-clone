@@ -1,0 +1,28 @@
+.TableBooking {
+  width: 100%;
+  background-color: #c59051;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 10px 0;
+}
+.TableBooking-child-one {
+  color: black;
+  text-align: center;
+  font-size: 24px;
+}
+.TableBooking-child-two {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 40px 0 30px 0;
+}
+.TableBooking-child-two > div {
+  width: 90%;
+  padding: 10px;
+  border: 2px solid #c59051;
+  box-shadow: 11px -2px 67px 0px rgba(197, 144, 81, 1);
+  -webkit-box-shadow: 11px -2px 67px 0px rgba(197, 144, 81, 1);
+  -moz-box-shadow: 11px -2px 67px 0px rgba(197, 144, 81, 1);
+}

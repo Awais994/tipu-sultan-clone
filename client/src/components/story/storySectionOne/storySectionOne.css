@@ -1,0 +1,120 @@
+/* .storytSection-one {
+  min-height: 600px;
+  background-image: url("../../../../public/banner-bg.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.childstorytSection-one {
+  width: 100%;
+  text-align: center;
+}
+.childstorytSection-one > h1 {
+  line-height: normal;
+  margin-top: 10px;
+  font-size: 52px;
+  font-weight: 400;
+}
+.childstorytSection-one > h5 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+.childstorytSection-one > p {
+  font-size: 21px;
+  color: #fff;
+  line-height: normal;
+}
+.btnstorytSectionOne-div {
+  display: flex;
+  color: black;
+  width: 100%;
+  justify-content: center;
+}
+.btnstorytSectionOne-div > div {
+  background: #fff;
+  margin-right: 10px;
+  padding: 12px 20px 12px 20px;
+  padding-left: 30px;
+  margin-right: 30px;
+  font-size: 14.17px;
+  font-weight: 700;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  box-shadow: 0.5rem 0.5rem #c59051;
+}
+.btnstorytSectionOne-div > div:hover {
+  cursor: pointer;
+  color: #c59051;
+} */
+.storytSection-two {
+  background-color: #c59051;
+  width: 100%;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.childstorytSection-two {
+  display: flex;
+  width: 98%;
+  padding-top: 30px;
+  margin: auto;
+  border-top: 1px solid #fff;
+}
+.childSST1 {
+  width: 100%;
+  padding: 10px;
+}
+.childSST1 > h4 {
+  text-align: left;
+}
+.childSST1-1 {
+  margin-top: 40px;
+}
+.childSST2 {
+  width: 600px;
+  text-align: right;
+  padding: 10px;
+}
+.childSST2 > img {
+  width: 100%;
+}
+.childstorytSection-two-one {
+  width: 100%;
+}
+.childstorytSection-two-one > div {
+  width: 98%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #fff;
+}
+@media screen and (max-width: 765px) {
+  .childstorytSection-two {
+    display: block;
+    width: 98%;
+    padding-top: 30px;
+    margin: auto;
+    border-top: 1px solid #fff;
+  }
+}
+
+@media screen and (max-width: 616px) {
+  .childSST2 {
+    width: 300px;
+    text-align: right;
+    padding: 10px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 313px) {
+  .childSST2 {
+    width: 200px;
+    text-align: right;
+    padding: 10px;
+    margin: auto;
+  }
+}

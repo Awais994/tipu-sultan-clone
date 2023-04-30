@@ -1,0 +1,116 @@
+.v-section-one {
+  min-height: 600px;
+  background-image: url("../../../public/v-banner.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.v-childSection-one {
+  width: 100%;
+  text-align: center;
+}
+.v-childSection-one > h1 {
+  line-height: normal;
+  margin-top: 10px;
+  font-size: 52px;
+  font-weight: 400;
+}
+.v-childSection-one > h5 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+.v-childSection-one > p {
+  font-size: 21px;
+  color: #fff;
+  line-height: normal;
+}
+.v-section-two {
+  background-color: #c59051;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.v-childSection-child-one {
+  padding-top: 20px;
+  width: 98%;
+  border-top: 1px solid white;
+  margin: auto;
+}
+.v-childSection-child-one > h4 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.v-childSection-child-two > div {
+  width: 98%;
+  margin: auto;
+}
+.accordion-button {
+  text-align: center !important;
+  background-color: #c59051 !important;
+}
+.accordion-item {
+  border: none !important;
+}
+.accordion-button {
+  color: black !important;
+  box-shadow: none !important;
+}
+.accordion-button:not(.collapsed)::after {
+  color: black !important;
+}
+.accordion-body {
+  background-color: #c59051 !important;
+  text-align: center !important;
+}
+.accordion-header {
+  background-color: #c59051 !important;
+}
+
+.toogle-head-child {
+  text-align: center;
+  width: 100%;
+  font-weight: 400;
+  font-style: normal;
+}
+.toogle-body-child {
+  font-size: 24px;
+}
+.btn-close {
+  color: black !important;
+  filter: invert(10%) !important;
+}
+.v-childSection-child-three > div {
+  width: 98%;
+  margin: auto;
+  padding-top: 10px;
+  padding-left: 10px;
+  text-align: center;
+  font-size: 24px;
+}
+.v-childSection-child-four {
+  width: 98%;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.v-form-label {
+  font-size: 20px !important;
+  font-weight: bold;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,11 @@
+.bottomHeader {
+  width: 100%;
+  background-color: #c59051;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 10px 0;
+}
+.childBottomHeader {
+  color: #fff;
+  text-align: center;
+}

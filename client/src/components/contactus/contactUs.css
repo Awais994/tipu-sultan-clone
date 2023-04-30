@@ -1,0 +1,147 @@
+.ContactUs {
+  display: flex;
+  width: 100%;
+  color: #fff;
+  /* padding-top: 10px; */
+}
+.ContactUs > div {
+  width: 50%;
+}
+
+.childContactUs-one {
+  background-image: url("../../../public/our-location-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.childContactUs-one-child {
+  width: 96%;
+  margin: auto;
+}
+.childContactUs-one {
+  padding: 10px;
+}
+.childContact-child-two {
+  width: 100%;
+  display: flex;
+}
+.childContact-child-two > div {
+  width: 50%;
+  padding: 10px;
+}
+.sub-div-child-contact-two > div > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sub-div-child-contact-two > div > ul > li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 10px 0;
+  font-family: "Spartan", sans-serif;
+}
+.sub-div-child-contact-two > div {
+  border-top: 1px solid #fff;
+  padding: 20px 2px 20px 2px;
+}
+.sub-div-child-contact-two > div > p {
+  font-family: "Spartan", sans-serif;
+}
+.social-div-contact {
+  padding-top: 10px;
+}
+.childContact-child-one {
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+.childContact-child-one > h2 {
+  font-weight: 400;
+  font-family: "Merriweather", serif;
+  line-height: normal;
+}
+
+.upper-case-heading {
+  font-weight: 400;
+  font-family: "Merriweather", serif;
+  line-height: normal;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.link-color {
+  color: #ffcc00;
+  text-decoration: none;
+}
+.sub-div-child-contact-one > div {
+  padding: 20px 2px 20px 2px;
+  border-top: 1px solid #fff;
+}
+
+.link-hover-contact:hover {
+  color: #ffcc00;
+}
+.childContactUs-Two {
+  padding: 20px;
+}
+.sub-childContactUs-Two {
+  width: 100%;
+  color: black;
+  margin: auto;
+  padding: 20px;
+
+  box-shadow: -1px 2px 31px 0px rgba(28, 27, 26, 0.39) inset;
+  -webkit-box-shadow: -1px 2px 31px 0px rgba(28, 27, 26, 0.39) inset;
+  -moz-box-shadow: -1px 2px 31px 0px rgba(28, 27, 26, 0.39) inset;
+}
+
+.sub-childContactUs-Two > div {
+  padding: 12px;
+}
+.super-childContactUs-two-one {
+  text-transform: uppercase;
+}
+.super-childContactUs-two-one,
+h2 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Merriweather", serif;
+  line-height: normal;
+}
+.super-childContactUs-two-one > h5 {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Merriweather", serif;
+  line-height: normal;
+}
+.super-childContactUs-two-one > h5,
+h2 {
+  padding: 10px 0 10px 0;
+}
+@media screen and (max-width: 808px) {
+  .ContactUs {
+    display: block;
+  }
+  .ContactUs > div {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .childContact-child-two {
+    display: block;
+    text-align: center;
+  }
+  .childContact-child-two > div {
+    width: 100%;
+  }
+  .childContact-child-one {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 312px) {
+  .sub-div-child-contact-two > div > ul > li {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}

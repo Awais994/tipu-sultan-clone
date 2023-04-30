@@ -1,0 +1,60 @@
+.section-one {
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.childSection-one {
+  width: 100%;
+  text-align: center;
+}
+.childSection-one > h1 {
+  line-height: normal;
+  margin-top: 10px;
+  font-size: 52px;
+  font-weight: 400;
+}
+.childSection-one > h5 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+.childSection-one > p {
+  font-size: 21px;
+  color: #fff;
+  line-height: normal;
+}
+.btn-div {
+  display: flex;
+  color: black;
+  width: 100%;
+  justify-content: center;
+}
+.btn-div > div {
+  background: #fff;
+  margin-right: 10px;
+  padding: 12px 20px 12px 20px;
+  padding-left: 30px;
+  margin-right: 30px;
+  font-size: 14.17px;
+  font-weight: 700;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  box-shadow: 0.5rem 0.5rem #c59051;
+}
+.btn-div > div:hover {
+  cursor: pointer;
+  color: #c59051;
+}
+
+@media screen and (max-width: 434px) {
+  .btn-div {
+    flex-wrap: wrap;
+  }
+  .btn-div > div {
+    margin-top: 20px;
+  }
+}
